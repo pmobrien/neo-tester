@@ -58,6 +58,12 @@
             <version>6.9.9</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>4.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     
     <build>

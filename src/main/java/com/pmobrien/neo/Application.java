@@ -22,7 +22,7 @@ public class Application {
           .setURI(path.toUri().toString())
           .setDriverClassName("org.neo4j.ogm.drivers.embedded.driver.EmbeddedDriver");
       
-      SessionFactory sessionFactory = new SessionFactory(configuration, "com.pmobrien.neo");
+      SessionFactory sessionFactory = new SessionFactory(configuration, "com.pmobrien.neo.pojo");
 
       User me = new User()
           .setUuid(UUID.randomUUID())
